@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", Helvetica, sans-serif;
+}
+
+header {
+  background-image: url('./img/header-banner.jpg') background-repeat: no-repeat; background-size: contain;
+
+}
+
+nav{
+	height: 100px;
+}
+
+nav li{
+	font-size: 1.5rem;
+}
+
+.navbar-brand {
+	font-size: 1.5rem;	
+}
+
+.portfolio{
+  display: flex;
+  align-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.box{
+  border: black 1px solid;
+  padding: 15px;
+  width: 30%;
+}
+.box .image-container{
+  text-align:center;
+}
+.box h3{
+  padding: 10px;
+  text-align: center
+}
+.box p{
+  text-align: center;
+}
+
+.image-container{
+  width: 200px;
+  height: 150px;
+  background-color: #ccc;
+}
+
+#about{
+  display: flex;
+  align-content: space-around;
+  flex-wrap: wrap; 
+}
+
+.picture-container{
+  text-align: center;
+}
+#me{
+	top: 50%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: auto;
+  height: 250px;
+  border-radius: 80%
+}
+
+#about p{
+  width: 400px;
+  padding: 5px;
+  text-align: right;
+}
+.text-container {
+	font-family:  lato, sans-serif;
+	font-size: 1.2rem;
+	width: 50% ;
+}
+
+.picture-container{
+	width: 50%;
+	height: 400px;
+	float: left;
+}
+
+.contact {
+	background: #333;
+	color: #fff;
+}

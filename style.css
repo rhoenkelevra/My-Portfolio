@@ -20,6 +20,8 @@
 .description h4, h3{
   padding: 8px;
 }
+
+/* Skill Logo Colors */
 #html-logo{
   color: orange;
 }
@@ -37,7 +39,7 @@
 }
 
 
-@media (min-width: 1000px){
+@media (min-width: 1199px){
   .port-item{
     padding: 3em !important;
   }

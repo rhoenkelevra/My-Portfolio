@@ -1,118 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Rene Rhoen</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header id="main-header">
+        <div class="row no-gutters">
+          <div class="d-none d-md-block col-lg-4 col-md-5">
+            <img src="/img/me2.jpg" alt="" />
+          </div>
+          <div class="col-lg-8 col-md-7">
+            <div class="d-flex flex-column">
+              <div class="p-5 bg-dark text-white">
+                <!-- first row / name and icons -->
+                <div
+                  class="d-flex flex-row justify-content-between align-items-center"
+                >
+                  <h1 class="display-4">Rene Rhoen</h1>
+                  <div class="d-none d-md-block">
+                    <a href="#" class="text-white">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </div>
+                  <div>
+                    <a href="#" class="text-white">
+                      <i class="fab fa-linkedin-in"></i>
+                    </a>
+                  </div>
+                  <div>
+                    <a href="#" class="text-white">
+                      <i class="fab fa-github"></i>
+                    </a>
+                  </div>
+                  <div class="d-none d-md-block">
+                    <a href="#" class="text-white">
+                      <i class="fab fa-codepen"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- second row / description -->
+              <div class="description p-4 bg-black">
+                <h3>Junior Frontend Developer</h3>
+                <h4>jioajofandfaadg</h4>
+              </div>
+              <!-- third row / navigation  -->
+              <div>
+                <div
+                  class="d-flex flex-row text-white align-items-stretch text-center"
+                >
+                  <div
+                    class="port-item p-4 bg-primary"
+                    data-toggle="collapse"
+                    data-target="#home"
+                  >
+                    <i class="fas fa-home fa-3x d-block"></i>
+                    <span class="d-none d-sm-block">Home</span>
+                  </div>
+                  <div
+                    class="port-item p-4 bg-success"
+                    data-toggle="collapse"
+                    data-target="#resume"
+                  >
+                    <i class="fas fa-graduation-cap fa-3x d-block"></i>
+                    <span class="d-none d-sm-block">Resume</span>
+                  </div>
+                  <div
+                    class="port-item p-4 bg-warning"
+                    data-toggle="collapse"
+                    data-target="#work"
+                  >
+                    <i class="fas fa-folder-open fa-3x d-block"></i>
+                    <span class="d-none d-sm-block">Work</span>
+                  </div>
+                  <div
+                    class="port-item p-4 bg-danger"
+                    data-toggle="collapse"
+                    data-target="#contact"
+                  >
+                    <i class="fas fa-envelope fa-3x d-block"></i>
+                    <span class="d-none d-sm-block">Contact</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- HOME -->
+      <div id="home" class="collapse show">
+        <div class="card card-body bg-primary text-white py-5">
+          <h2>Welcome to My Page</h2>
+          <p class="lead">Hello! My name is Rene Frederik Rhoen. I am brazilian, living in Japan for the last 10 years. Married and a father of two lovely boys.
+          </p>
+          <p class="lead">I have discovered web development and programming last year and I wish I did it sooner. Since then, I am studying hard
+          to become a self-taught developer, really enjoying to code and each challenge that it brings. It has not been easy, but I am sure that a career as developer will change my life and the life of my family in
+          a positive way.
+          </p>
+          <p class="lead">
+            I am highly-motivated, result oriented, self-driven, hard-working, fast learner and smart eager to be a part of the team, learn new technologies, become a valuable employee of the company and bring it success.
+          </p>
+          <p class="lead">
+              I am looking to get in the industry as soon as possible. I have experience with Human Resources as team leader, managing more than 200 people. I also have a Bachelor Degree in Business Administration. 
+          </p>
+        </div>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
-
-  <title>Rene Rhoen || Front End Developer</title>
-</head>
-
-<body data-spy="scroll" data-target="#nav">
-  <div class="container">
-<!--  Navbar -->
- 
-  <header>
-    <nav class="navbar navbar-expand-sm navbar-light  sticky-top">
-      <div class="container">
-        <a href="#" class="navbar-brand">Rene Rhoen</a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a href="#about" class="nav-link">About Me</a></li>
-            <li class="nav-item"><a href="#portfolio" class="nav-link">Projects</a></li>
-            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-          </ul>
+        <div class="card card-body py-5">
+          <h3 class="display-4">My Skills</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel fuga laboriosam aliquid! Quasi, illum numquam.</p>
+          <hr>
+          <div class="d-flex flex-column flex-md-row align-items-stretch text-center">
+            <div class="port-item skill-logo mb-2">
+              <i class="fab fa-html5 fa-6x mb-1" id="html-logo"></i>
+              <span class="d-none d-sm-block">HTML5</span>
+            </div>  
+            <div class="port-item skill-logo mb-2">
+              <i class="fab fa-css3-alt fa-6x mb-1" id="css-logo"></i>
+              <span class="d-none d-sm-block">CSS3</span>
+            </div>  
+            <div class="port-item skill-logo mb-2">
+              <i class="fab fa-js-square fa-6x mb-1" id="js-logo"></i>
+              <span class="d-none d-sm-block">Javascript</span>
+            </div>  
+            <div class="port-item skill-logo mb-2">
+              <i class="fas fa-terminal fa-6x mb-1" id="terminal-logo"></i>
+              <span class="d-none d-sm-block">Terminal</span>
+            </div>
+            <div class="port-item skill-logo mb-2">
+              <i class="fab fa-github fa-6x mb-1" id="git-logo"></i>
+              <span class="d-none d-sm-block">Git</span>
+            </div>
+            <div class="port-item skill-logo">
+                <i class="fab fa-bootstrap fa-6x mb-1" id="bootstrap-logo"></i>
+                <span class="d-none d-sm-block">Bootstrap</span>
+              </div>        
+          </div>
         </div>
       </div>
-    </nav>
-  </header>
-<!--  About Section -->
-  
-  <section class="about" id="about">
-    <div class="picture-container">
-      <img src="/img/me.jpg" alt="me" id="me">
-    </div>
-    <div class="text-container">
-      <p>Hello! My name is Rene Rhoen. I am brazilian, living in Japan for the last 10 years. Married and a father of
-        two lovely boys.</p>
-      <p>I've discovered web development and programming at the beggining of this year. Since then, I am studying hard
-        and trying to learn as fast as possible to become a self-taught developer, while working a full time job and
-        taking care of my family. I am sure that a career as developer will change my life and the life of my family in
-        a positive way.</p>
-      <p>I am looking to get in the industry as soon as possible. I have experience with Human Resources and as
-        interpreter. I also have a Bachelor Degree in Business Administration. </p>
-        <a href="#" class="resume">My Resume</a>
+      <!-- RESUME -->
+      <div class="collapse" id="resume">
+        <div class="card card-body bg-success text-white py-5">
+          <h2>My Resume</h2>
+        </div>
+        <div class="card card-body py-5">
+          <h3>Where I have worked</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt earum ullam provident autem iste praesentium commodi a at impedit quae!
+          </p>
+          <div class="card-deck">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Quality Japan</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, minima!</p>
+                <p class="p-2 mb-3 bg-dark text-white">
+                  Position: HR Manager
+                </p>
+                <p class="p-2 mb-3 bg-dark text-white">
+                  Phone: (333) 333 - 3333
+                </p>
+              </div>
+              <div class="card-footer">
+                <h6 class="text-muted">From 2014 to 2018</h6>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Aisin Seiki</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, minima!</p>
+                <p class="p-2 mb-3 bg-dark text-white">
+                  Position: HR Manager
+                </p>
+                <p class="p-2 mb-3 bg-dark text-white">
+                  Phone: (333) 333 - 3333
+                </p>
+              </div>
+              <div class="card-footer">
+                <h6 class="text-muted">From 2014 to 2018</h6>
+              </div>
+            </div>  
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Quality Japan</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, minima!</p>
+                <p class="p-2 mb-3 bg-dark text-white">
+                  Position: HR Manager
+                </p>
+                <p class="p-2 mb-3 bg-dark text-white">
+                  Phone: (333) 333 - 3333
+                </p>
+              </div>
+              <div class="card-footer">
+                <h6 class="text-muted">From 2014 to 2018</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+      <footer id="main-footer" class="p-3 bg-dark text-white">
+        <div class="row">
+          <div class="col-md-6">
+            <a href="/docs/履歴書２０１9年.pdf" class="btn btn-outline-light">
+              <i class="fa fa-cloud"></i>  Download Resume (Japanese)
+            </a>
+          </div>
+        </div>
+      </footer>
     </div>
 
-  </section>
-  
-<!--  Portfolio Section -->
- 
-  <section class="portfolio" id="portfolio">
-    <div class="box">
-      <div class="image-container"></div>
-      <h3>Project 01</h3>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos voluptas reprehenderit, recusandae a excepturi
-        magnam temporibus mollitia amet voluptatibus saepe.</p>
-    </div>
-    <div class="box">
-      <div class="image-container"></div>
-      <h3>Project 02</h3>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos voluptas reprehenderit, recusandae a excepturi
-        magnam temporibus mollitia amet voluptatibus saepe.</p>
-    </div>
-    <div class="box">
-      <div class="image-container"></div>
-      <h3>Project 03</h3>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos voluptas reprehenderit, recusandae a excepturi
-        magnam temporibus mollitia amet voluptatibus saepe.</p>
-    </div>
-    <div class="box">
-      <div class="image-container"></div>
-      <h3>Project 04</h3>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos voluptas reprehenderit, recusandae a excepturi
-        magnam temporibus mollitia amet voluptatibus saepe.</p>
-    </div>
-    <div class="box">
-      <div class="image-container"></div>
-      <h3>Project 05</h3>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos voluptas reprehenderit, recusandae a excepturi
-        magnam temporibus mollitia amet voluptatibus saepe.</p>
-    </div>
-    <div class="box">
-      <div class="image-container"></div>
-      <h3>Project 06</h3>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos voluptas reprehenderit, recusandae a excepturi
-        magnam temporibus mollitia amet voluptatibus saepe.</p>
-    </div>
-  </section>
-  
-<!--  Contact  Section -->
-  <section class="contact">
-  
-  
-  	email: rhoenrene@gmail.com
-  	
-  	phone: +81 90 9957 2209
-  	
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    
-  </footer>
-  </div><!-- </div> end of main container -->
-
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-  <script src="index.js"></script>
-
-</body>
-
+    <!-- Scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+    <script src="index.js"></script>
+  </body>
 </html>
